@@ -11,5 +11,14 @@ class basic_loop{
         { System.out.println(a);
             a++;
         }
+
+        System.out.println("\n\npattern printing\n");
+        for (int i=0;i<5;i++)
+        {
+            for (int j=0;j<=i;j++)
+            {System.out.print("*");}
+            System.out.println();
+        }
+        
     }
 }

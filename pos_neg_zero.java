@@ -1,6 +1,8 @@
+import java.util.Scanner;
 public class pos_neg_zero {
     public static void main(String[] args) {
-        int num=-7;
+        Scanner object = new Scanner(System.in);
+        int num=object.nextInt();
         if(num>0)
         System.out.println("Positive");
         else if(num<0)

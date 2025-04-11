@@ -1,7 +1,11 @@
-public class largest2 {
+import java.util.Scanner;
+public class greatestOfTwoNum {
     public static void main(String[] args) {
-        int a=20;
-        int b=30;
+        System.out.println("enter two numbers a and b: ");
+        Scanner object = new Scanner(System.in);
+        int a=object.nextInt();
+        
+        int b=object.nextInt();
         if (a>b)
         System.out.println("a is greater");
         else if (b>a)

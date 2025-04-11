@@ -1,6 +1,10 @@
+import java.util.Scanner;
+
 public class prime {
     public static void main(String[] args) {
-        int num=11;
+        System.out.println("enter a number: ");
+        Scanner object = new Scanner(System.in);
+        int num=object.nextInt();
         boolean isprime=true;
         for(int i=2;i<=num/2;i++)
         {

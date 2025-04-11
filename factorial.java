@@ -1,12 +1,14 @@
 import java.util.Scanner;
-public class evenodd {
+
+public class factorial {
     public static void main(String[] args) {
         System.out.println("enter a number: ");
         Scanner object = new Scanner(System.in);
         int num=object.nextInt();
-        if(num%2==0)
-        System.out.println("Even");
-        else
-        System.out.println("Odd");
+        int result=1;
+        for(int i=1;i<=num;i++){
+            result=result*i;
+        }
+        System.out.println("factorial of "+num+" is : "+result);
     }
 }
