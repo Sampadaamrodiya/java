@@ -1,4 +1,4 @@
-public class lagest3 {
+public class largest3 {
     public static void main(String[] args) {
         int a=30,b=30,c=30;
         if(a>b && a>c)
