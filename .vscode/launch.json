@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "problem3",
+            "request": "launch",
+            "mainClass": "problem3",
+            "projectName": "java_e7c3238"
+        },
+        {
+            "type": "java",
+            "name": "problem2",
+            "request": "launch",
+            "mainClass": "problem2",
+            "projectName": "java_e7c3238"
+        },
+        {
+            "type": "java",
+            "name": "problem1",
+            "request": "launch",
+            "mainClass": "problem1",
+            "projectName": "java_e7c3238"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
