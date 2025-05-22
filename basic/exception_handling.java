@@ -13,15 +13,18 @@ public class exception_handling {
         // }
 
 
-        // int array[]={1,2,3,4,4};
-        // try{
-        //     System.out.println(array[7]);
-        // }catch(Exception e){
-        //     System.out.println(e);        
-        // }
-        // System.out.println("completed");
+        int array[]={1,2,3,4,4};
+        try{
+            System.out.println(array[7]);
+        }catch(Exception e){
+            System.out.println(e);        
+        }finally{
+            //koi chale ya na chale ye hamesha chelga
+            System.out.println("process completed");
+        }
 
         
+
 
 
 
