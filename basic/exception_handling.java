@@ -24,7 +24,7 @@ public class exception_handling {
             System.out.println("process completed");
         }
 
-
+ 
         // Scanner obj=new Scanner(System.in);
         // System.out.print("enter size of array: ");
         // int size=obj.nextInt();
