@@ -8,6 +8,13 @@
             "type": "java",
             "name": "exception_handling",
             "request": "launch",
+            "mainClass": "basic.exception_handling",
+            "projectName": "java_e7c3238"
+        },
+        {
+            "type": "java",
+            "name": "exception_handling",
+            "request": "launch",
             "mainClass": "exception_handling",
             "projectName": "java_e7c3238"
         },

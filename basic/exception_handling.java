@@ -1,13 +1,31 @@
 package basic;
+import java.util.Scanner;
 public class exception_handling {
     public static void main(String[] args) {
-        int a=10; int b=0;
-        try{
-            int c=a/b;
-            System.out.println(c);
-        } catch (Exception e){
-            System.out.println("cannot divide by zero");
-        }
+        
+        // Scanner obj= new Scanner(System.in);
+        // int a=obj.nextInt(); int b=obj.nextInt();
+        // try{
+        //     int c=a/b;
+        //     System.out.println(c);
+        // } catch (Exception e){
+        //     System.out.println("cannot divide by zero");
+        // }
+
+
+        // int array[]={1,2,3,4,4};
+        // try{
+        //     System.out.println(array[7]);
+        // }catch(Exception e){
+        //     System.out.println(e);        
+        // }
+        // System.out.println("completed");
+
+        
+
+
+
+       
     }
     
 }
