@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "linkedlisttt",
+            "request": "launch",
+            "mainClass": "linkedlisttt",
+            "projectName": "java_e7c3238"
+        },
+        {
+            "type": "java",
             "name": "sum",
             "request": "launch",
             "mainClass": "array.sum",

@@ -1,7 +1,7 @@
-package array;
+package colectionss;
 import java.util.ArrayList;
 import java.util.Collections;
-public class arraylist {
+public class collextions {
     public static void main(String[] args) {
         ArrayList<String> arr= new ArrayList<>();
         arr.add("rahul");
@@ -18,7 +18,7 @@ public class arraylist {
         System.out.println(arr.get(1));
         System.out.println(arr.size());
         System.out.println(arr.isEmpty());
-        arr.set(1,"hii");
+        arr.set(1,"hii");//it replaces
         System.out.println(arr);
         arr.clear();
         System.out.println(arr.isEmpty());
