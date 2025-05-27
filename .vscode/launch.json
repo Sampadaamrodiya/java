@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "removeDuplicate",
+            "request": "launch",
+            "mainClass": "removeDuplicate",
+            "projectName": "java_e7c3238"
+        },
+        {
+            "type": "java",
+            "name": "hashhset",
+            "request": "launch",
+            "mainClass": "hashhset",
+            "projectName": "java_e7c3238"
+        },
+        {
+            "type": "java",
             "name": "linkedlisttt",
             "request": "launch",
             "mainClass": "linkedlisttt",
