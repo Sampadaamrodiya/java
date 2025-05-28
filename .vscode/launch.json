@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "setmap",
+            "request": "launch",
+            "mainClass": "setmap",
+            "projectName": "java_e7c3238"
+        },
+        {
+            "type": "java",
             "name": "removeDuplicate",
             "request": "launch",
             "mainClass": "removeDuplicate",
