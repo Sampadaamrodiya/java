@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NewFile",
+            "request": "launch",
+            "mainClass": "NewFile",
+            "projectName": "java_e7c3238"
+        },
+        {
+            "type": "java",
+            "name": "newfile",
+            "request": "launch",
+            "mainClass": "newfile",
+            "projectName": "java_e7c3238"
+        },
+        {
+            "type": "java",
             "name": "hellloo",
             "request": "launch",
             "mainClass": "hellloo",
