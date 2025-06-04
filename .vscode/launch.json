@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "demo",
+            "request": "launch",
+            "mainClass": "demo",
+            "projectName": "java_e7c3238"
+        },
+        {
+            "type": "java",
+            "name": "myfile",
+            "request": "launch",
+            "mainClass": "myfile",
+            "projectName": "java_e7c3238"
+        },
+        {
+            "type": "java",
             "name": "NewFile",
             "request": "launch",
             "mainClass": "NewFile",
