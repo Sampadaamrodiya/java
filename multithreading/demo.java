@@ -26,7 +26,7 @@ class withdrawal extends Thread{
 }
 public class demo{
     public static void main(String[] args) {
-        withdrawal t1=new withdrawal(500);
+        withdrawal t1=new withdrawal(800);
         withdrawal t2=new withdrawal(800);
         t1.start();
         t2.start();
