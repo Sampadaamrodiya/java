@@ -1,0 +1,23 @@
+class createAcc{
+    private String name;
+    private String type;
+    double balance=0;
+    void getname(){
+        Scanner name = new Scanner(System.in);
+        System.out.print("Enter your name: ");
+        String holderName = name.next();
+    }
+    void getaccType(){
+        Scanner accType = new Scanner(System.in);
+        System.out.print("Enter account type: ");
+        System.out.println("Please enter 'savings' or 'current'.");
+        String accountType = accType.next();
+       //getaccType();  Recursive call to re-enter account type       
+    }
+    int generateAccNum(){
+        Random random = new Random();
+        int accNum = random.nextInt(100000, 999999);
+        System.out.println("Your Account Number: " + accNum);
+        return accNum;
+    }
+}

@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BankApp",
+            "request": "launch",
+            "mainClass": "BankApp",
+            "projectName": "java_e7c3238"
+        },
+        {
+            "type": "java",
+            "name": "bank",
+            "request": "launch",
+            "mainClass": "bank",
+            "projectName": "java_e7c3238"
+        },
+        {
+            "type": "java",
             "name": "demo",
             "request": "launch",
             "mainClass": "demo",
